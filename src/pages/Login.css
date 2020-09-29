@@ -1,0 +1,110 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+}
+.login_logo{
+    max-width: 100px;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.logo_image{
+    max-width: 100px;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.login_main{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+
+    padding: 20px;
+    border: 1px solid rgb(230, 230, 230);
+    width: 300px;
+    border-radius: 5px;
+
+}
+h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+.login_label{
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(43, 43, 43);
+    margin-bottom: 5px;
+}
+
+.login_email, .login_password{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 3px 10px;
+    margin-bottom: 15px;
+
+}
+
+.login_button{
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.login_agree{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.login_create{
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+
+}
+.login_question {
+    width: 100%;
+    text-align: center; 
+    border-bottom: 1px solid rgb(216, 216, 216);
+    
+    line-height: 0.1em;
+    margin: 30px 0 20px; 
+    color: rgb(158, 158, 158);
+    font-size: 14px;;
+
+ } 
+ 
+ .login_question span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .login_createAccount{
+     background: rgb(236, 236, 236);
+     border: 1px solid rgb(170, 170, 170);
+     border-radius: 2px;
+     /* width: 100%; */
+     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+     padding: 10px 20px;
+     text-decoration: none;
+     color: black;
+     text-align: center;
+
+ }
+
+ 
+ .login_createAccount:hover{
+    background: rgb(207, 207, 207);
+ }

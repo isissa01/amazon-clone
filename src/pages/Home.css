@@ -1,0 +1,30 @@
+.home{
+    max-width: 1500px;
+    margin: auto;
+  }
+.home_bannerImage{
+    width: 100%;
+    object-fit: contain;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    margin-bottom: -150px;
+    z-index: -1;
+}
+.home_row{
+  display: flex;
+  z-index: 1;
+  margin: 0 5px;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+@media only screen and (max-width: 680px){
+
+  .home_row{
+    flex-direction: column;
+  }
+  .hide{
+    display: none !important;
+  }
+}
+
+ 
